@@ -1,0 +1,11 @@
+Final Project Proposal -- Jester Joke Recommender System
+
+Group Members: 
+
+Dataset: Using data from the Jester Online Joke Recommender System, where a total of 73422 users have rated up to 100 jokes.
+UserRatings1.csv contains the ratings provided by the first 36710 users.
+UserRatings2.csv contains the ratings provided by the last 36711 users.
+The dataset is arranged such that the initial users have rated higher number of jokes than the later users.
+The rating is a real value between -10.0 and +10.0.
+The empty values indicate that the user has not provided any rating for that particular joke.
+
