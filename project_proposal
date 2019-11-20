@@ -9,3 +9,4 @@ The dataset is arranged such that the initial users have rated higher number of 
 The rating is a real value between -10.0 and +10.0.
 The empty values indicate that the user has not provided any rating for that particular joke.
 
+Project Outline:
