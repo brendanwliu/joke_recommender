@@ -1,6 +1,6 @@
 Final Project Proposal -- Jester Joke Recommender System
 
-Group Members: 
+Group Members: Brendan Liu, Joshua Kim, Elaine Sieng, Yerem 
 
 Dataset: Using data from the Jester Online Joke Recommender System, where a total of 73422 users have rated up to 100 jokes.
 UserRatings1.csv contains the ratings provided by the first 36710 users.
