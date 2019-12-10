@@ -21,6 +21,7 @@ model_knn = NearestNeighbors(metric='cosine', algorithm='brute', n_neighbors = 1
 model_knn.fit(df_sparse.T)
 print('Done!')
 
+# Cold Start, recommend 2 jokes at random to initialize the user.
 cold_read = 2
 for i in range(cold_read):
     idx = random.randint(0,99)
