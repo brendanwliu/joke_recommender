@@ -32,6 +32,8 @@ print('Done!')
 cold_read = 2
 for i in range(cold_read):
     idx = random.randint(0,99)
+    while(new_user[idx]!=0):
+        idx = random.randint(0,99)
     init_joke = joketext.JokeText[idx]
     print(init_joke)
     print('----------------------------------------------------------------------------------')
@@ -46,7 +48,8 @@ while True:
         print('No More Jokes!')
         break
     distances, indices = model_knn.kneighbors(new_user.reshape(1,-1), n_neighbors = 734)
-    neighbor = np.mean(df.iloc[:,np.intersect1d(df.columns.values.astype(int),indices)], axis = 1)[new_user==0]
+    neighbor = np.mean(df.iloc[:,np.intersect1d(df.columns.values.astype(int),indices)], axis = 1)
+    neighbor[new_user != 0] = -1
     rec = np.argmax(np.array(neighbor))
     rec_joke = joketext.JokeText[rec]
     print(rec_joke)
