@@ -1,0 +1,3 @@
+# Remove artifacts
+.ipynb_checkpoints/
+.DS_Store
