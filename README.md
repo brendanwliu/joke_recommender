@@ -6,9 +6,9 @@ A joke recommender based on the UC Berkeley paper:
 
 Our goal is to find different representations of user behavior and the ratings they give to these 100 jokes.
 
-## ASSIGNMENTS:
+You can read the final report [here](final_report.ipynb).
 
-#### TBD - Finalize this 12/2
+## ASSIGNMENTS:
 
 Brendan
 
